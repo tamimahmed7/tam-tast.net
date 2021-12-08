@@ -128,8 +128,6 @@
     .keyf-part {
         width: 100%;
         height: auto;
-        margin-bottom: 100px;
-        padding-bottom: 50px;
     }
     
     .key-f-taital {
@@ -227,4 +225,283 @@
     .k-p-box-left-i section {
         text-align: center;
         color: #fff;
+    }
+    
+    .flax-b-area {
+        width: 100%;
+        height: auto;
+        background-image: url(images/yyy.jpg);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        backdrop-filter: blur( 20px);
+        -webkit-backdrop-filter: blur( 20px);
+        border-radius: 1px;
+        border: 1px solid rgba( 255, 255, 255, 0.18);
+    }
+    
+    .flax-b-container {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        padding-top: 50px;
+        box-sizing: border-box;
+        column-gap: 10px;
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .flax-b {
+        color: #fff;
+    }
+    
+    .flax-b-img {
+        width: 100%;
+        height: 65vh;
+    }
+    
+    .flax-b h3 {
+        padding-top: 20px;
+        font-size: 3rem;
+        color: #fff;
+    }
+    
+    .flax-b-left {
+        width: 90%;
+    }
+    
+    .flax-b-right section {
+        width: 50%;
+        margin-left: 50px;
+    }
+    
+    .flax-b-right h4 {
+        padding-top: 30px;
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    
+    .flax-b-right section p {
+        padding-left: 45px;
+        padding-bottom: 20px;
+    }
+    
+    .flax-b-right section a {
+        padding-left: 45px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .f-b-r-top {
+        margin-bottom: 50px;
+    }
+    
+    .it-area {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .it-container {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        padding-top: 50px;
+        box-sizing: border-box;
+        column-gap: 10px;
+        display: flex;
+    }
+    
+    .it-box-left {
+        width: 40%;
+        height: auto;
+        box-sizing: border-box;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .it-box-left p {
+        line-height: 25px;
+    }
+    
+    .it-box-left h5 {
+        padding-top: 100px;
+        font-size: 2.5rem;
+        color: rgba(18, 219, 219, 0.884);
+        padding-bottom: 30px;
+        font-weight: bold;
+    }
+    
+    .it-box-right {
+        width: 60%;
+        height: 400px;
+    }
+    
+    .it-btn {
+        padding: 10px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        width: 200px;
+        border: 1px solid indigo;
+        border-radius: 15px;
+        background-color: rgba(18, 219, 219, 0.884);
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+    
+    .it-btn :hover {
+        background-color: red;
+        border: 1px solid black;
+        padding: 10px 20px;
+    }
+    
+    .it-btn a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .prodact-area {
+        width: 100%;
+        height: auto;
+        background-image: url(images/yyy.jpg);
+    }
+    
+    .prodact-container {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding-top: 50px;
+        column-gap: 10px;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+        margin-bottom: 60px;
+    }
+    
+    .p-box-1 {
+        background-color: chartreuse;
+        grid-row: 2/7;
+        grid-column: 2/10;
+        order: 2;
+    }
+    
+    .p-box-2 {
+        grid-column: 5/11;
+        grid-row: 1/9;
+    }
+    
+    .p-box-3 {
+        display: grid;
+        background-color: #fff;
+        grid-column: 8/10;
+        grid-row: 4/6;
+        order: 4;
+        align-items: center;
+    }
+    
+    .p-box-4 {
+        display: grid;
+        align-items: center;
+        background-color: #fff;
+        grid-column: 10/12;
+        grid-row: 4/6;
+        order: 4;
+    }
+    
+    .p-box-5 {
+        display: grid;
+        align-items: center;
+        background-color: #fff;
+        grid-column: 8/10;
+        grid-row: 6/8;
+        order: 3;
+    }
+    
+    .p-box-6 {
+        display: grid;
+        align-items: center;
+        background-color: #fff;
+        grid-column: 10/12;
+        grid-row: 6/8;
+        order: 3;
+    }
+    
+    .p-b-i {
+        margin-left: 30%;
+        font-size: 2rem;
+        color: #fff;
+        background-color: rgba(18, 219, 219, 0.884);
+        padding: 15px;
+        border-radius: 50%;
+    }
+    
+    .p-box section p {
+        font-size: 1rem;
+        padding-top: 20px;
+        text-align: center;
+        font-weight: 900;
+    }
+    
+    .it-area-2 {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .it-2-container {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        padding-top: 50px;
+        box-sizing: border-box;
+        column-gap: 10px;
+        display: flex;
+    }
+    
+    .it-2-box-right {
+        width: 40%;
+        height: auto;
+        box-sizing: border-box;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .it-2-box-right p {
+        line-height: 25px;
+    }
+    
+    .it-2-box-right h5 {
+        padding-top: 100px;
+        font-size: 2.5rem;
+        color: rgba(18, 219, 219, 0.884);
+        padding-bottom: 30px;
+        font-weight: bold;
+    }
+    
+    .it-box-left {
+        width: 60%;
+        height: 400px;
+    }
+    
+    .it-2-btn {
+        padding: 10px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        width: 200px;
+        border: 1px solid indigo;
+        border-radius: 15px;
+        background-color: rgba(18, 219, 219, 0.884);
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+    
+    .it-2-btn :hover {
+        background-color: red;
+        border: 1px solid black;
+        padding: 10px 20px;
+    }
+    
+    .it-2-btn a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
     }
